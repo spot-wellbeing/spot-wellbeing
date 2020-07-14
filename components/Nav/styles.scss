@@ -1,0 +1,53 @@
+.nav {
+  background-color: rgba(0, 62, 111, .9);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: .6s ease;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5rem;
+  }
+  
+  &.open {
+    left: 0;
+  }
+  
+  &.closed {
+    left: 100vw;
+  }
+
+  @media (min-width: 768px) {
+    position: relative;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &.closed {
+      left: 0;
+    }
+
+    > a {
+      margin: 0;
+      font-size: 1.1rem;
+      transition: .2s ease-in-out;
+      border-bottom: solid 1px transparent;
+      
+      &:hover {
+        cursor: pointer;
+        border-color: #fff;
+      }
+    }
+  }
+}

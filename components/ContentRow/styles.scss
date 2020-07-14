@@ -1,0 +1,43 @@
+@import '../../styles/foundation/colours.scss';
+
+.content-row {
+  &--even {
+    background-color: $grey;
+  }
+  
+  @media (min-width: 768px) {
+    display: flex;
+
+    &--odd {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+    &--even {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__header {
+      flex-basis: 50%;
+
+      &__img {
+        max-width: 450px;
+        margin: 0 auto;
+      }
+    }
+
+    &__body {
+      max-width: 600px;
+      margin: 0 auto;
+      flex-basis: 50%;
+    }
+
+    &__header,
+    &__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}

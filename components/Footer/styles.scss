@@ -1,0 +1,74 @@
+@import '../../styles/foundation/colours';
+
+.footer {
+  background-color: $grey--extra-dark;
+  font-size: .9rem;
+  color: #fff;
+  padding-top: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  p, a, span {
+    font-size: .9rem;
+  }
+
+  &__main-content {
+    margin-bottom: 1rem;
+    
+    div {
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    @media (min-width: 768px) {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        width: 400px;
+        text-align: left;
+        padding: 0;
+      }
+    }
+  }
+
+  &__links {
+    @media (min-width: 768px) {
+      display: flex;
+
+      div:first-child {
+        flex-basis: 60%;
+      }
+    }
+  }
+  
+  &__contact-info {
+    &__link {
+      display: block;
+
+      > svg {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__copyright {
+    background-color: $grey--dark;
+    padding: 1rem 0;
+
+    &__text {
+      &--light {
+        color: rgba(255, 255, 255, .75);
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "next-styled-components-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "dotenv": "^8.2.0",
+    "global": "^4.4.0",
+    "next": "9.1.7",
+    "node-sass": "^4.14.1",
+    "polished": "^3.4.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.10.0",
+    "react-scroll": "^1.7.16",
+    "styled-components": "^5.0.0"
+  }
+}
