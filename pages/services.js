@@ -30,7 +30,7 @@ const ServicesPage = () => (
         </div>
       </div>
       <ContentRow
-        odd
+        even
         title="1:1 Sessions"
         img={
           {
@@ -44,7 +44,7 @@ const ServicesPage = () => (
         <p>Currently due to COVID-19 sessions may be adapted for safety (including virtual or outdoor sessions).</p>
       </ContentRow>
       <ContentRow
-        even
+        odd
         title="Health &amp; Wellbeing Groups"
         img={
           {

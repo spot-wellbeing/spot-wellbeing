@@ -14,8 +14,8 @@ const Image = ({
       'img',
       className,
     )}>
-      {webpUrl && <source srcset={webpUrl} type="image/webp" />}
-      <source srcset={imgUrl} type="image/jpeg" /> 
+      {webpUrl && <source srcSet={webpUrl} type="image/webp" />}
+      <source srcSet={imgUrl} type="image/jpeg" /> 
       <img src={imgUrl} alt={alt} />
     </picture>
   );
