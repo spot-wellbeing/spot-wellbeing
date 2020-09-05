@@ -28,6 +28,8 @@ const Home = () => (
         <div className="container text-align-center vertical-center">
           <h1 role="heading" aria-level="1">Welcome to SPOT Wellbeing</h1>
           <h2 role="heading" aria-level="2">Community Interest Company</h2>
+          <p><span className="text-strong">SPOT Wellbeing</span> is a team of <span className="text-strong">Occupational Therapists</span> and <span className="text-strong">Physiotherapists</span> working with adults in Suffolk to improve and maintain their <span className="text-strong">mental and physical wellbeing</span>, promote healthy living and prevent ill health. We are a <span className="text-strong">non-profit</span> organisation and all of our services are free of charge.</p>
+          <p>We work with you to identify goals and support you to achieve them.</p>
         </div>
       </section>
       <ContentRow
