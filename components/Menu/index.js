@@ -57,6 +57,9 @@ const Menu = ({
         <Link href="/our-team">
           <a className="mb-md" onClick={handleSetMenuIsOpen}>Our Team</a>
         </Link>
+        <Link href="/news">
+          <a className="mb-md" onClick={handleSetMenuIsOpen}>News</a>
+        </Link>
         <Link href="/contact-us">
           <a className="mb-md" onClick={handleSetMenuIsOpen}>Contact Us</a>
         </Link>

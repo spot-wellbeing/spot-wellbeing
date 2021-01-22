@@ -27,6 +27,18 @@
   }
 }
 
+.news {
+  &__post {
+    &__title {
+      background-color: $grey;
+    }
+
+    img, iframe {
+      max-width: 100%;
+    }
+  }
+}
+
 .d {
   &-flex {
     display: flex;
@@ -95,7 +107,7 @@
       margin-right: 3rem;
     }
   }
-  &b {
+  &bo {
     &-xs {
       margin-bottom: .25rem;
     }
@@ -248,7 +260,7 @@
       padding-right: 3rem;
     }
   }
-  &b {
+  &bo {
     &-xs {
       padding-bottom: .25rem;
     }
@@ -370,6 +382,9 @@
   &-bold {
     font-weight: 500;
     color: $blue;
+  }
+  &-italic {
+    font-style: italic;
   }
 }
 
