@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Butter from 'buttercms';
 import Moment from 'moment';
 
-const butter = Butter(process.env.BUTTER_API_KEY);
+const butter = Butter(`${process.env.BUTTER_API_KEY}`);
 
 function createMarkup(html) {
   return {__html: `${html}`};
