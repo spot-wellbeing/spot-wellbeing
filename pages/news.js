@@ -37,7 +37,6 @@ class NewsPage extends React.Component {
           </div>
 
           {this.props.data.map((post) => {
-            console.log(post);
             return (
               <section className="news__post row">
                 <div className="news__post__title container">
