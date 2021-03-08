@@ -20,6 +20,7 @@ class NewsPage extends React.Component {
   render() {
     Moment.locale('en');
     const { next_page, previous_page } = this.props.meta;
+    this.props.data.reverse();
 
     return (
       <>
