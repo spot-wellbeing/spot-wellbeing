@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Helmet } from 'react-helmet';
 import ContentRow from '../components/ContentRow/index';
 
@@ -54,9 +55,18 @@ const ServicesPage = () => (
           }
         }
       >
-        <p>Our health and wellbeing courses (50 years +) are run over a 6 week period for 1.5 hours per week. All sessions are designed by skilled NHS background health professionals to support your physical and mental wellbeing whilst making connections with others in your community.</p>
-        <p>Sessions include: exercise, stress and anxiety management, falls awareness, nutrition, tasters of wellbeing activities and social opportunities.</p>
-        <p>Currently unavailable due to COVID-19.</p>
+        <p>Our health and wellbeing courses (60 years +) are run over a 6 week period for 1.5 hours per week. All sessions are designed by skilled NHS background health professionals to support your physical and mental wellbeing whilst making connections with others in your community.</p>
+        <p>All sessions are relaxed, friendly and include an exercise session, a talk and time to socialise. 90 minute session per week for 6 weeks.</p>
+
+        <p><strong>Week 1</strong> - | Introductions |Exercise | Benefits of exercise | Refreshments</p>
+        <p><strong>Week 2</strong> - Exercise | Falls awareness | Refreshments</p>
+        <p><strong>Week 3</strong> - Exercise | Mindfulness and relaxation | Refreshments</p>
+        <p><strong>Week 4</strong> - Exercise | Nutrition | Refreshments</p>
+        <p><strong>Week 5</strong> - Exercise | Common health conditions | Refreshments</p>
+        <p><strong>Week 6</strong> - Exercise | Discussion, signposting and feedback | Refreshments</p>
+
+        <p>Groups starting in East Suffolk July 2021.</p>
+        <p>Contact us via <Link href="tel:07598678505">telephone</Link> or <Link href="/contact-us">through the website</Link> for more information.</p>
       </ContentRow>
     </main>
   </>
