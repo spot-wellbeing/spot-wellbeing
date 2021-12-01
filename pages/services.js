@@ -32,31 +32,34 @@ const ServicesPage = () => (
       </div>
       <ContentRow
         even
-        title="1:1 Sessions"
+        title="One-to-One Sessions"
         img={
           {
-            imgUrl: "/img/one-one.jpg",
-            webpUrl: "/img/one-one.webp",
-            alt: 'Man talking to a consultant',
+            imgUrl: "/img/lynn2.jpg",
+            webpUrl: "/img/lynn2.webp",
+            alt: 'Lynn',
           }
         }
       >
-        <p>1:1 sessions are available with our physiotherapist, occupational therapist or technical instructor who have experience in both mental and physical health. Sessions can be tailored your needs, priorities, and goals. We can include support with anxiety and stress management, exercise, falls awareness, diet and nutrition advice and specific occupational and physiotherapy interventions.</p>
-        <p>Currently due to COVID-19 sessions may be adapted for safety (including virtual or outdoor sessions).</p>
+        <p>One to one sessions are available with our physiotherapist, occupational therapist or technical instructor who have experience in both mental and physical health. </p>
+        <p>Sessions are tailored your needs, values, and goals.</p>
+        <p>Please read our case studies to see some of the ways we support people.</p>
+        <p>All our sessions are face to face and we come to your home environment. However, if you prefer to meet somewhere else or have phone / zoom sessions we can provide this.</p>
       </ContentRow>
       <ContentRow
         odd
         title="Health &amp; Wellbeing Groups"
         img={
           {
-            imgUrl: "/img/health-wellbeing.jpg",
-            webpUrl: "/img/health-wellbeing.webp",
-            alt: 'People laughing and joining hands',
+            imgUrl: "/img/group-session.jpg",
+            webpUrl: "/img/group-session.webp",
+            alt: 'A group session in progress',
           }
         }
       >
-        <p>Our health and wellbeing courses (60 years +) are run over a 6 week period for 1.5 hours per week. All sessions are designed by skilled NHS background health professionals to support your physical and mental wellbeing whilst making connections with others in your community.</p>
+        <p>Our health and wellbeing groups are usually run over a 6 week period for 1.5 hours per week. All sessions are designed by skilled NHS background health professionals to support your physical and mental wellbeing whilst making connections with others in your community.</p>
         <p>All sessions are relaxed, friendly and include an exercise session, a talk and time to socialise. 90 minute session per week for 6 weeks.</p>
+        <p>This is an example of a group program.</p>
 
         <p><strong>Week 1</strong> - | Introductions |Exercise | Benefits of exercise | Refreshments</p>
         <p><strong>Week 2</strong> - Exercise | Falls awareness | Refreshments</p>
@@ -65,8 +68,35 @@ const ServicesPage = () => (
         <p><strong>Week 5</strong> - Exercise | Common health conditions | Refreshments</p>
         <p><strong>Week 6</strong> - Exercise | Discussion, signposting and feedback | Refreshments</p>
 
-        <p>Groups starting in East Suffolk July 2021.</p>
-        <p>Contact us via <Link href="tel:07598678505">telephone</Link> or <Link href="/contact-us">through the website</Link> for more information.</p>
+        <p>Contact us via <Link href="tel:07598678505">telephone</Link> or <Link href="/contact-us">through the website</Link> for more information or to book onto a group.</p>
+        <p>Keep an eye on our ‘News’ page, Facebook and Instagram for updates on where the groups are taking place.</p>
+      </ContentRow>
+      <ContentRow
+        even
+        title="Bespoke Services"
+        img={
+          {
+            imgUrl: "/img/healthy-info.jpg",
+            webpUrl: "/img/healthy-info.webp",
+            alt: 'Heart health information',
+          }
+        }
+      >
+        <p>We also offer a bespoke service of group or one to one sessions tailored to your business / organisation’s needs. We have a broad range of skills to meet your requirements.</p>
+        <p>Please contact us to discuss further. The heart health group is an example of a bespoke group.</p>
+      </ContentRow>
+      <ContentRow
+        odd
+        title="Moving &amp; Handling"
+        img={
+          {
+            imgUrl: "/img/leaflet2.jpg",
+            webpUrl: "/img/leaflet2.webp",
+            alt: 'SPOT Wellbeing leaflet',
+          }
+        }
+      >
+        <p>We offer holistic moving and handling tuition to private carers and small organisations at competitive prices. Please contact us for more details.</p>
       </ContentRow>
     </main>
   </>

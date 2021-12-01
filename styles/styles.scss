@@ -433,14 +433,24 @@ hr {
   padding: 0 0 1rem;
 
   @media (min-width: 768px) {
-    padding: 1rem 2rem 2rem;
+    padding: 2rem;
   }
 
   @media (min-width: 992px) {
-    padding: 0 120px 2rem;
+    padding: 2rem 120px;
   }
 }
 
 .banner {
   margin-bottom: -7px;
+}
+
+.contact-info {
+  &__link {
+    display: block;
+
+    > svg {
+      vertical-align: middle;
+    }
+  }
 }
