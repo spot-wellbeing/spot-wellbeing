@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import ContentRow from '../components/ContentRow/index';
 import ContactForm from '../components/ContactForm';
 import Link from 'next/link';
-import { FaPhoneSquareAlt, FaFacebookSquare, FaEnvelope } from 'react-icons/fa';
+import { FaPhoneSquareAlt, FaEnvelope } from 'react-icons/fa';
 
 const ContactUsPage = () => (
   <>

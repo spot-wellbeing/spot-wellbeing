@@ -34,7 +34,7 @@ class NewsPage extends React.Component {
 
         <main>
           <div className="container text-align-center bg-blue">
-            <h1 role="heading" aria-level="1">News</h1>
+            <h1 role="heading" aria-level="1">News &amp; Events</h1>
           </div>
 
           {this.props.data.map((post) => {

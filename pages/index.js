@@ -57,9 +57,9 @@ const Home = () => (
         odd
         title="Our Mission"
         img={{
-          imgUrl: '/img/rainbow.jpg',
-          webpUrl: '/img/rainbow.webp',
-          alt: 'A rainbow',
+          imgUrl: '/img/advice.jpg',
+          webpUrl: '/img/advice.webp',
+          alt: 'Advice infographic',
         }}
         className="bg-alternative"
       >

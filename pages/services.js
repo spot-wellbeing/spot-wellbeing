@@ -72,6 +72,19 @@ const ServicesPage = () => (
         <p>Keep an eye on our ‘News’ page, Facebook and Instagram for updates on where the groups are taking place.</p>
       </ContentRow>
       <ContentRow
+        odd
+        title="Moving &amp; Handling"
+        img={
+          {
+            imgUrl: "/img/leaflet2.jpg",
+            webpUrl: "/img/leaflet2.webp",
+            alt: 'SPOT Wellbeing leaflet',
+          }
+        }
+      >
+        <p>We offer holistic moving and handling tuition to private carers and organisations at competitive prices. We offer bespoke courses and full moving and handling of inanimate objects and people and equipment. The courses are CPD accredited and you will receive a CPD certificate of attendance. Our training is carried out by an IOSH trained health professional. Please <a href="/contact-us">contact us</a> for more details.</p>
+      </ContentRow>
+      <ContentRow
         even
         title="Bespoke Services"
         img={
@@ -84,19 +97,6 @@ const ServicesPage = () => (
       >
         <p>We also offer a bespoke service of group or one to one sessions tailored to your business / organisation’s needs. We have a broad range of skills to meet your requirements.</p>
         <p>Please contact us to discuss further. The heart health group is an example of a bespoke group.</p>
-      </ContentRow>
-      <ContentRow
-        odd
-        title="Moving &amp; Handling"
-        img={
-          {
-            imgUrl: "/img/leaflet2.jpg",
-            webpUrl: "/img/leaflet2.webp",
-            alt: 'SPOT Wellbeing leaflet',
-          }
-        }
-      >
-        <p>We offer holistic moving and handling tuition to private carers and small organisations at competitive prices. Please contact us for more details.</p>
       </ContentRow>
     </main>
   </>
