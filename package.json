@@ -13,7 +13,6 @@
     "buttercms": "^1.2.5",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
-    "expo": "^49.0.16",
     "global": "^4.4.0",
     "moment": "^2.29.1",
     "next": "9.1.7",
