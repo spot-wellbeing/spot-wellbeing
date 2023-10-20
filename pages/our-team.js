@@ -1,5 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Link from 'next/link';
+import { FaPhoneSquareAlt } from 'react-icons/fa';
 import ContentRow from '../components/ContentRow/index';
 
 const TeamPage = () => (
@@ -28,9 +30,16 @@ const TeamPage = () => (
           }
         }
       >
-        <p>I have worked in healthcare for 15 years. I started my physiotherapy career at Colchester Hospital working as a physio assistant and this spurred me on to become a qualified physiotherapist.</p>
-        <p>I have covered a very broad range of areas in the hospital setting covering acute, stroke rehab, care of the elderly, musculoskeletal, orthopaedics, orthotics, medical respiratory and working in the community. I am also trained in pilates.</p>
-        <p>I have also worked for Essex County Council, which has given me a good knowledge of available services. I currently work in a Suffolk-based community healthcare team, keeping up to date with current research and using evidence-based practise. My passion is to provide holistic care in the community, to help mental and physical health, helping communities connect and improving quality of life.</p>
+        <p>I have worked in the health service for 20 years as a Physiotherapist. I started at Colchester hospital. I covered many areas including acute stroke, long term therapy, musculoskeletal, care of the elderly and worked in the community.</p>
+        <p>My passion is to provide a holistic service supporting peoples mental and physical health. Providing a service which is tailored to the individuals needs and their family.</p>
+        <p>I co-founded SPOT to be able to work in this way, and I can cover all aspects of care as required.</p>
+        <br />
+        <Link href="tel:07398796393">
+          <a className="contact-info__link mb-md">
+            <FaPhoneSquareAlt size="24px" className="mr-sm" />
+            <span>07398 796393</span>
+          </a>
+        </Link>
       </ContentRow>
       <ContentRow
         even
@@ -44,10 +53,9 @@ const TeamPage = () => (
           }
         }
       >
-        <p>I have worked in various health care settings for 12 years now, qualifying as an Occupational Therapist (OT) in 2013. Prior to, and during my degree I worked in many health and care settings to gain a broad range of understanding of these services and life for the people using them.</p>
-        <p>I worked in care homes, domiciliary care, hospital wards and as a 1:1 support for a young man with profound and multiple learning disabilities at his home and special needs school. My final elective placement at university was setting up OT services in a council funded day service and a working farm for people with learning disabilities, this grew my confidence, passion and skills and ability to think outside the box. After qualifying as an OT I have worked in mental health services including inpatient secure units for adolescents with neurodevelopmental diagnosis and adult rehabilitation and recovery services.</p>
-        <p>In both mental health settings I set up OT services as they either did not have an OT before or had not for a period of time. I have worked in an Ipswich community therapy team for several years supporting people with with long term health conditions, people who are at the end of their life and those in crisis. I love working with people.</p>
-        <p>I love getting to know them, learning from each other and working towards meaningful goals whilst supporting them to live as independently, safely and happily as possible.</p>
+        <p>I have always loved working with people. I spent time in care homes, domiciliary care and as a 1:1 support worker for a young person with profound and multiple learning difficulties and epilepsy at school and in his family home.</p>
+        <p>I qualified as an Occupational Therapist in 2013 and have worked in community therapy teams, adult mental health and in an acute unit with neurodivergent adolescents.</p>
+        <p>I co-founded Spot as I wanted to be able to use all my skills and support people holistically, in a personalised way. I love developing the service and the freedom to grow the service with the needs of the people and communities we work with.</p>
       </ContentRow>
       <ContentRow
         odd
@@ -61,9 +69,53 @@ const TeamPage = () => (
           }
         }
       >
-        <p>I have worked in healthcare settings for 24 years. Starting out as a healthcare assistant within a nursing home, I moved onto home care of the elderly and dementia patients followed by working on a mental health ward. I began within the NHS as a physiotherapy assistant, under the guidance of experienced physios this rapidly turned into becoming a Technical Instructor within the Community Physiotherapy team.</p>
-        <p>I have experience within musculoskeletal clinics and worked in a Day and Treatment team covering long term health conditions, brain injuries, other neurological conditions and falls. I hold an NVQ 3 in therapeutic support, am a chair based exercise and Otago trained instructor. My knowledge of support services in and around Ipswich is vast and over the years I have built important networks within the local healthcare community.</p>
-        <p>I have a special interest in anxiety and mental health and use my own experiences to help and guide others. I’m passionate about helping those in need. My aim is for all people to be as healthy as possible in both body and mind whilst maintaining their independence.</p>
+        <p>Where do I start? 25+ years in and still going strong. Starting out as a healthcare assistant within a nursing home, I moved onto home care of the elderly and dementia patients followed by working on a mental health ward. I began within the NHS as a physiotherapy assistant and under the guidance of experienced physios this rapidly turned into becoming a Technical Instructor within the Community Physiotherapy team in Ipswich. Over the years I have worked within musculoskeletal clinics, in rehab teams treating long term health conditions, brain injuries and other neurological conditions as well as falls and pretty much everything else in between. As an experienced exercise instructor, I am qualified in chair based exercise, postural stability and Otago, I like to keep people on the move! My knowledge of support services in and around Ipswich is vast and over the years I have built important networks within the local healthcare community as well as social care and the voluntary sector. These links mean the people I work with always have a holistic approach with ‘what matters’ in mind. I have a special interest in anxiety, depression and mental health using my own life experience to assist and guide others. I’m passionate about helping those in need, love my work and enjoy meeting people and building relationships, it&#39;s what I do best. Sometimes all you need to do is listen. My aim is for people to stay as healthy as possible in both body and mind, managing their health conditions in the best way possible whilst maintaining their independence ...and enjoying life!.. Sometimes you’ve got to go there to come back.</p>
+        <br />
+        <Link href="tel:07743004515">
+          <a className="contact-info__link mb-md">
+            <FaPhoneSquareAlt size="24px" className="mr-sm" />
+            <span>07743 004515</span>
+          </a>
+        </Link>
+      </ContentRow>
+      <ContentRow
+        even
+        title="Daisy - Business Support"
+        img={
+          {
+            imgUrl: '/img/daisy.jpg',
+            webpUrl: '/img/daisy.webp',
+            alt: 'Daisy',
+          }
+        }
+      >
+        <p>Daisy helps us to organise and insure the smooth running of all our Health and Wellbeing groups across the county. Daisy has previous experience working with charities and councils. Daisy has a degree in Society, Culture and Media.</p>
+      </ContentRow>
+      <ContentRow
+        odd
+        title="Jane - Health &amp; Wellbeing Support Partner"
+        img={
+          {
+            imgUrl: '/img/jane.jpg',
+            webpUrl: '/img/jane.webp',
+            alt: 'Jane',
+          }
+        }
+      >
+        <p>Jane has many years working in health care in a range of settings. Jane supports people through our one-to-one service and runs the health and wellbeing groups with us.</p>
+      </ContentRow>
+      <ContentRow
+        even
+        title="Kate - Health &amp; Wellbeing Partner"
+        img={
+          {
+            imgUrl: '/img/kate.jpg',
+            webpUrl: '/img/kate.webp',
+            alt: 'Kate',
+          }
+        }
+      >
+        <p>Kate is a qualified yoga teacher and is training to be a physiotherapist. Kate works with people one to one and supports our groups. Kate is also developing resources for our service including exercise plans and our YouTube channel.</p>
       </ContentRow>
     </main>
   </>
