@@ -1,0 +1,16 @@
+.Btn {
+  padding: 1rem 1.5rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  
+  &--primary {
+    background-color: #e0e0e0;
+  }
+
+  &--secondary {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}

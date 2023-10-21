@@ -1,12 +1,16 @@
 require('dotenv').config();
 
-const withSass = require('@zeit/next-sass')
+const path = require('path');
 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   env: {
     SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
-    BUTTER_API_KEY: process.env.BUTTER_API_KEY,
   },
-};
+  reactStrictMode: true,
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+}
 
-module.exports = withSass({});
+module.exports = nextConfig
