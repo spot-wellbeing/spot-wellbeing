@@ -1,10 +1,11 @@
 import React from 'react';
+import { bool } from 'prop-types';
 import cn from 'classnames';
 import Image from '../Image/index.js';
 
 const ContentRow = ({
-  odd,
-  even,
+  isOdd,
+  isEven,
   title,
   note,
   img,
@@ -14,8 +15,8 @@ const ContentRow = ({
   <div className={cn(
     'content-row row',
     {
-      'content-row--odd': odd,
-      'content-row--even': even,
+      'content-row--odd': isOdd,
+      'content-row--even': isEven,
     },
     className,
   )}>
@@ -35,5 +36,15 @@ const ContentRow = ({
     </div>
   </div>
 );
+
+ContentRow.defaultProps = {
+  isEven: false,
+  isOdd: false,
+};
+
+ContentRow.propTypes = {
+  isEven: bool,
+  isOdd: bool,
+};
 
 export default ContentRow;

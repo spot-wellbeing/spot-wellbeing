@@ -14,7 +14,7 @@ const Image = ({
     )}>
       {webpUrl && <source srcSet={webpUrl} type="image/webp" />}
       <source srcSet={imgUrl} type="image/jpeg" /> 
-      <img src={imgUrl} alt={alt} />
+      <img src={imgUrl} alt={alt} loading="lazy" />
     </picture>
   );
 };

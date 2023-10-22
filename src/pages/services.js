@@ -17,7 +17,7 @@ const ServicesPage = () => (
       <div className="container text-align-center bg-blue">
         <h1 role="heading" aria-level="1">Services</h1>
       </div>
-      <div odd className="row text-align-center mt-lg">
+      <div className="row text-align-center mt-lg">
         <div className="container">
           <p>
             All services are free to access.
@@ -25,7 +25,7 @@ const ServicesPage = () => (
         </div>
       </div>
       <ContentRow
-        even
+        isEven
         title="1:1 Sessions"
         img={
           {
@@ -54,7 +54,7 @@ const ServicesPage = () => (
         <p>Or to download the self-referrals or NSFT referrals form, click <Link href="forms/spot-referral-form-2023.docx" download>here</Link>.</p>
       </ContentRow>
       <ContentRow
-        odd
+        isOdd
         title="Health &amp; Wellbeing Groups"
         img={
           {
@@ -78,7 +78,7 @@ const ServicesPage = () => (
         <p>Keep an eye on our ‘News’ page, Facebook and Instagram for updates on where the groups are taking place.</p>
       </ContentRow>
       <ContentRow
-        even
+        isEven
         title="Moving &amp; Handling"
         img={
           {
@@ -91,7 +91,7 @@ const ServicesPage = () => (
         <p>We offer holistic moving and handling tuition to private carers and organisations at competitive prices. We offer bespoke courses and full moving and handling of inanimate objects and people and equipment. The courses are CPD accredited and you will receive a CPD certificate of attendance. Our training is carried out by an IOSH trained health professional. Please <Link href="/contact-us">contact us</Link> for more details.</p>
       </ContentRow>
       <ContentRow
-        odd
+        isOdd
         title="Sustainable Groups"
         img={
           {
@@ -101,24 +101,15 @@ const ServicesPage = () => (
           }
         }
       >
-        <p>Here's one of our videos demonstrating an assisted passive hip flexor and quadricep stretch.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/eydqIykeJww?si=j0hx2MwtSah5Q4SJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p>You can find the rest of our videos on our YouTube channel <Link href="https://www.youtube.com/@SPOTWellbeing" target="_blank">here</Link>.</p>
+        <p>We offer holistic moving and handling tuition to private carers and organisations at competitive prices. We offer bespoke courses and full moving and handling of inanimate objects and people and equipment. The courses are CPD accredited and you will receive a CPD certificate of attendance. Our training is carried out by an IOSH trained health professional. Please <Link href="/contact-us">contact us</Link> for more details.</p>
       </ContentRow>
       <ContentRow
-        even
+        isEven
         title="SPOT Wellbeing on YouTube"
-        // img={
-        //   {
-        //     imgUrl: "/img/healthy-info.jpg",
-        //     webpUrl: "/img/healthy-info.webp",
-        //     alt: 'Heart health information',
-        //   }
-        // }
       >
-        <p>We have supported some of our groups to become sustainable community groups.</p>
-        <p>Hawthorn Drive has now been run by the community for 10 months. The group members all have different roles and responsibilities. They participate in exercise, relaxation, socialise and a raffle to build funds for the group every Friday. They are supported by us at Spot Wellbeing and Vicky, a social prescriber from the Hawthorn Drive Surgery.</p>
-        <p>In Mid Suffolk in collaboration with Communities Together East Anglia and the Mid Suffolk Council, groups have continued as community groups. This means they are led by the community after the 6 weeks Health and Wellbeing Course. They are given support to set up and continue as a sustainable group.</p>
+        <p>Here's one of our videos demonstrating an assisted passive hip flexor and quadricep stretch.</p>
+        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/eydqIykeJww?si=j0hx2MwtSah5Q4SJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <p>You can find the rest of our videos on our YouTube channel <Link href="https://www.youtube.com/@SPOTWellbeing" target="_blank">here</Link>.</p>
       </ContentRow>
     </main>
   </>

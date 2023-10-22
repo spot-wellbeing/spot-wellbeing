@@ -25,11 +25,11 @@ const ContactUsPage = () => (
             Please contact us if you have any questions or enquiries for SPOT Wellbeing.
           </p>
           <Link href="tel:07598678505" className="contact-info__link mb-md">
-            <FaPhoneSquareAlt size="24px" className="mr-sm" />
+            <FaPhoneSquareAlt size="24px" className="mr-sm" color="#5EB2D4" />
             <span>07598 678505</span>
           </Link>
           <Link href="mailto:spotwellbeing@gmail.com" className="contact-info__link mb-md">
-            <FaEnvelope size="24px" className="mr-sm" />
+            <FaEnvelope size="24px" className="mr-sm" color="#5EB2D4" />
             <span>spotwellbeing@gmail.com</span>
           </Link>
         </div>

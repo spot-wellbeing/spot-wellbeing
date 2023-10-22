@@ -11,8 +11,6 @@ export default function Home() {
           name="description"
           content="Improve and maintain your wellbeing. Free physiotherapy and occupational therapy, to support mental and physical health, and reduce loneliness and isolation."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <section className="desktop-split-row">
