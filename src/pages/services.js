@@ -101,7 +101,9 @@ const ServicesPage = () => (
           }
         }
       >
-        <p>We offer holistic moving and handling tuition to private carers and organisations at competitive prices. We offer bespoke courses and full moving and handling of inanimate objects and people and equipment. The courses are CPD accredited and you will receive a CPD certificate of attendance. Our training is carried out by an IOSH trained health professional. Please <Link href="/contact-us">contact us</Link> for more details.</p>
+        <p>We have supported some of our groups to become sustainable community groups.</p>
+        <p>Hawthorn Drive has now been run by the community for 10 months. The group members all have different roles and responsibilities. They participate in exercise, relaxation, socialise and a raffle to build funds for the group every Friday. They are supported by us at Spot Wellbeing and Vicky, a social prescriber from the Hawthorn Drive Surgery.</p>
+        <p>In Mid Suffolk in collaboration with Communities Together East Anglia and the Mid Suffolk Council, groups have continued as community groups. This means they are led by the community after the 6 weeks Health and Wellbeing Course. They are given support to set up and continue as a sustainable group.</p>
       </ContentRow>
       <ContentRow
         isEven

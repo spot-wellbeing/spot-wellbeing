@@ -21,7 +21,7 @@ const TeamPage = () => (
       <ContentRow
         odd
         title="Lynn Sibley - Physiotherapist Bsc HCPC registered MCSP"
-        note="CEO, Founder &amp; HCPC-registered Physiotherapist"
+        note="Director and Co-Founder of Spot Wellbeing CIC, HCPC-registered Physiotherapist"
         img={
           {
             imgUrl: '/img/lynn.jpg',
@@ -42,7 +42,7 @@ const TeamPage = () => (
       <ContentRow
         even
         title="Holly Simpson – Occupational Therapist, BSc, HCPC, IPCOTSS"
-        note="CEO, Founder &amp; HCPC registered Occupational Therapist"
+        note="Director and Co-Founder of Spot Wellbeing CIC, HCPC registered Occupational Therapist"
         img={
           {
             imgUrl: '/img/holly.jpg',
@@ -58,7 +58,7 @@ const TeamPage = () => (
       <ContentRow
         odd
         title="John Ottaway – Technical Instructor"
-        note="CEO Founder MCSP"
+        note="Director and Co-Founder of Spot Wellbeing CIC, MCSP"
         img={
           {
             imgUrl: '/img/john.jpg',
