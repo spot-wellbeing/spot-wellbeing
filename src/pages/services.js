@@ -95,8 +95,8 @@ const ServicesPage = () => (
         title="Sustainable Groups"
         img={
           {
-            imgUrl: "/img/hawthorn-drive-group.jpeg",
-            webpUrl: "/img/hawthorn-drive-group.webp",
+            imgUrl: "/img/sustainable-group-photo.jpeg",
+            webpUrl: "/img/sustainable-group-photo.webp",
             alt: 'The Hawthorn Drive group',
           }
         }
