@@ -97,7 +97,7 @@ const ServicesPage = () => (
           {
             imgUrl: "/img/sustainable-group-photo.jpeg",
             webpUrl: "/img/sustainable-group-photo.webp",
-            alt: 'The Hawthorn Drive group',
+            alt: 'Sustainable group photo',
           }
         }
       >
