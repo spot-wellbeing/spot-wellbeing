@@ -42,7 +42,7 @@ const TeamPage = () => (
       <ContentRow
         even
         title="Holly Simpson – Occupational Therapist, BSc, HCPC, IPCOTSS"
-        note="Director and Co-Founder of Spot Wellbeing CIC, HCPC registered Occupational Therapist"
+        note="Co-Founder of Spot Wellbeing CIC, HCPC registered Occupational Therapist"
         img={
           {
             imgUrl: '/img/holly.jpg',
@@ -53,7 +53,7 @@ const TeamPage = () => (
       >
         <p>I have always loved working with people. I spent time in care homes, domiciliary care and as a 1:1 support worker for a young person with profound and multiple learning difficulties and epilepsy at school and in his family home.</p>
         <p>I qualified as an Occupational Therapist in 2013 and have worked in community therapy teams, adult mental health and in an acute unit with neurodivergent adolescents.</p>
-        <p>I co-founded Spot as I wanted to be able to use all my skills and support people holistically, in a personalised way. I love developing the service and the freedom to grow the service with the needs of the people and communities we work with.</p>
+        <p>I was a director at Spot Wellbeing CIC from 2019 to 2024. I am now stepping down from being a Director to dedicate time to other areas of my life. I will be working for the service on a part-time basis in my occupational Therapy role capacity.</p>
       </ContentRow>
       <ContentRow
         odd
